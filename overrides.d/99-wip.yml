@@ -1,2 +1,4 @@
+- base/cmake:
+    branch: junit
 - build_tests/rock.core/enable-tests:
     branch: add_proper_testsuite
