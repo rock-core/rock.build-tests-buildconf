@@ -5,11 +5,7 @@ package_sets:
     - rock.build-tests
 
 layout:
-    - base/cmake
-    - base/templates/cmake_lib
-    - base/scripts
-    - rock.build-tests
-    - orogen
+    - drivers/iodrivers_base
 
 exclude_packages:
     - gui/vizkit3d
