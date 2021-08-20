@@ -1,0 +1,3 @@
+qt5:
+    debian, ubuntu: qt5-default
+
