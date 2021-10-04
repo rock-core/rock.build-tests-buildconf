@@ -65,3 +65,6 @@ orogen_package 'build_tests/orogen/typekit_idl_cross_dependency_regression_2'
 cmake_package 'build_tests/orogen/global_initializer_dependency'
 orogen_package 'build_tests/orogen/global_initializer'
 orogen_package 'build_tests/orogen/opaque_with_ptr_type_generation'
+orogen_package 'build_tests/orogen/using_task_library_not_picking_up_not_directly_used_dependencies_publisher'
+orogen_package 'build_tests/orogen/using_task_library_not_picking_up_not_directly_used_dependencies_consumer'
+
