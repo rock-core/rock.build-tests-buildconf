@@ -16,6 +16,7 @@ remove_from_default 'build_tests/autoproj/checkout_of_test_dependencies_make-dep
 
 cmake_package 'build_tests/cmake/plain_package'
 cmake_package 'build_tests/cmake/plain_cxx11_package'
+cmake_package 'build_tests/cmake/plain_cxx14_package'
 cmake_package 'build_tests/cmake/another_plain_package'
 cmake_package 'build_tests/cmake/headers_only_library'
 cmake_package 'build_tests/cmake/cxx11_headers_only_library'
@@ -41,6 +42,8 @@ cmake_package 'build_tests/cmake/deps_target_use_pkgconfig'
 cmake_package 'build_tests/cmake/find_gem'
 cmake_package 'build_tests/cmake/qt4'
 cmake_package 'build_tests/cmake/qt5'
+cmake_package 'build_tests/cmake/cxx_standards_11_then_14'
+cmake_package 'build_tests/cmake/cxx_standards_14_then_11'
 
 orogen_package 'build_tests/orogen/leading_underscore'
 orogen_package 'build_tests/orogen/cxx11_dependency'
