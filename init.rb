@@ -28,3 +28,5 @@ Autoproj.config.set 'USE_OCL', false, true
 
 Autoproj::PackageManagers::BundlerManager
     .configure_build_for('gem_build_flags', '--with-toplevel-init=success')
+
+Autoproj.config.set "syskit_use_bundles", false, true
