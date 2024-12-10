@@ -73,8 +73,5 @@ orogen_package 'build_tests/orogen/opaque_with_ptr_type_generation'
 orogen_package 'build_tests/orogen/using_task_library_not_picking_up_not_directly_used_dependencies_publisher'
 orogen_package 'build_tests/orogen/using_task_library_not_picking_up_not_directly_used_dependencies_consumer'
 orogen_package 'build_tests/orogen/cxx_standards_11_then_14'
-#This requires changes to orogen and base/cmake to pass
-#https://github.com/pierrewillenbrockdfki/tools-orogen/tree/improve-handling-pc-std-flags
-#https://github.com/pierrewillenbrockdfki/base-cmake/tree/cxx-standard-to-compile-feature
-#orogen_package 'build_tests/orogen/cxx_standards_14_then_11'
-
+orogen_package 'build_tests/orogen/cxx_standards_14_then_11'
+orogen_package 'build_tests/orogen/port_driven_timeout'
